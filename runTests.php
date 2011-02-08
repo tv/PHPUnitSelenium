@@ -1,5 +1,6 @@
 <?php
-var_dump($_SERVER);
+define('ROOT_PATH', $_SERVER['PWD']);
+
 ini_set(
     'include_path',
     ini_get('include_path').':'.
